@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+body {
+    width : 414px;
+    padding: 30px;
+    font-family: 'Rubik', Courier, monospace;
+    border: 5px solid;
+    border-color:plum;
+}
+.header-playlist{
+    display: flex;
+    justify-content: center;
+}
+
+.header__title{
+    display: flex;
+}
+
+.playlist{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.playlist__img {
+    width: 130px;
+    height: 130px;
+    border: 1px solid;
+    border-color:black;
+    border-radius:15px;
+    background-image: url("img/coverimg.jpeg") ;
+    background-size: cover;
+}
+.playlist__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left:12px;
+}
+
+.playlist__title {
+    font-size: 32px;
+    flex-wrap: wrap;
+    font-weight: 800;
+}
+
+.playlist__owner {
+    font-size: 20px;
+}
+
+.button {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 32px;
+
+}
+
+.button__play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid;
+    border-bottom: 5px solid;
+    border-radius: 10px;
+}
+
+.button__play:first-child span {
+    margin-left:10px;
+    font-size: 20px;
+}
+
+.button__like, .button__add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 50%;
+    border-bottom: 5px solid;
+}
+
+ul {
+    list-style: none;
+    padding:0px;
+}
+
+.playlist--songs__list {
+    display:flex;
+    justify-content: flex-start;
+    margin: 32px 0;
+}
+
+.playlist--songs__cover {
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-color:black;
+    border-radius:15px;
+}
+.playlist--songs__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left:12px;
+}
+
+.playlist--songs__title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.playlist--songs__singer {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+li:first-child .playlist--songs__cover {
+    background-color: tomato;
+}
+
+li:nth-child(2) .playlist--songs__cover {
+    background-color: hotpink;
+}
+
+li:nth-child(3) .playlist--songs__cover {
+    background-color:royalblue;
+}
+
+li:nth-child(4) .playlist--songs__cover {
+    background-color:lightseagreen;
+}
