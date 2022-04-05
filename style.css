@@ -84,6 +84,7 @@ input::placeholder {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
     margin: 20px 0px;
 }
 .login--option {
@@ -91,5 +92,5 @@ input::placeholder {
     justify-content: space-around;
     font-size: 12px;
     color:#7c7c7c;
-
+    padding: 0 15px;
 }
