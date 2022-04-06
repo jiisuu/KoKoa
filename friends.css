@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+@import url('reset.css');
+
+body {
+    max-width: 375px;
+    margin: 0 auto;
+    font-family: 'Noto Sans KR';
+    margin: 24px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    width: 60%;
+    font-size: 24px;
+}
+
+header ion-icon {
+    font-size: 20px;
+}
+.my-profile {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #cccccc;
+
+}
+.my-profile img {
+    width: 48px;
+    height: 48px;
+    border-radius: 38%;
+}
+.profile__info{
+    display: flex;
+    flex-direction: column;
+    width: 36%;
+}
+
+.profile__name{
+    font-size:14px;
+    margin-bottom: 5px;
+}
+
+.profile__introduce {
+    font-size:12px;
+    font-weight: 300;
+}
+
+.profile__music {
+    display: flex;
+    justify-content: space-around;
+    height: 24px;
+    align-items: center;
+    border: 1px solid;
+    border-color:rgb(42, 216, 42);
+    border-radius: 15px;
+    padding: 0 5px 0 8px;
+}
+
+.profile__music span {
+    font-size:12px;
+}
+
+.profile__music ion-icon {
+    color:rgb(42, 216, 42);
+}
+.sub-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #7c7c7c;
+}
+
+.sub-header h4 {
+    font-size: 12px;
+    font-weight: 300;
+}
