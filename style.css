@@ -4,11 +4,17 @@
 @import url('nav-bar.css');
 @import url('screen-header.css');
 
+html {
+    height: 100%;
+}
+
 body {
     max-width: 375px;
+    position: relative;
     margin: 0 auto;
+    height:100%;
     font-family: 'Noto Sans KR';
-    height: 1000vh;
+
 }
 .login__with-kakao {
     background-color: #ffffff;
