@@ -8,26 +8,14 @@ body {
     margin: 24px;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-}
 
 h4 {
     font-size: 12px;
     font-weight: 300;
     color: #7c7c7c;
 }
-header h1 {
-    width: 60%;
-    font-size: 24px;
-}
 
-header ion-icon {
-    font-size: 20px;
-}
 .my-profile {
-    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -149,3 +137,6 @@ header ion-icon {
     color:#7c7c7c;
 
 }
+
+
+

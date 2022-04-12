@@ -1,0 +1,27 @@
+.screen-header {
+    position: fixed;
+    top:0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px 10px 20px 10px;
+    background-color: #ffffff;
+
+}
+
+.screen-header__title {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.screen-header__title h1 {
+    width 20%;
+    font-size: 24px;
+}
+.screen-header__icons {
+    box-sizing: border-box;
+}
+.screen-header__icons ion-icon {
+    font-size: 20px;
+    margin-left:5px;
+}

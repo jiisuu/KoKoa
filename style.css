@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
 @import url('reset.css');
+@import url('friends.css');
+@import url('nav-bar.css');
+@import url('screen-header.css');
 
 body {
     max-width: 375px;
     margin: 0 auto;
     font-family: 'Noto Sans KR';
+    height: 1000vh;
 }
 .login__with-kakao {
     background-color: #ffffff;

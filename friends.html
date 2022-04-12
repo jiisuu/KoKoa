@@ -5,15 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KaKao Friends</title>
-    <link rel="stylesheet" href="friends.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>친구</h1>
-        <ion-icon name="search-outline"></ion-icon>
-        <ion-icon name="person-add-outline"></ion-icon>
-        <ion-icon name="musical-notes-outline"></ion-icon>
-        <ion-icon name="cog-outline"></ion-icon>
+    <header class="screen-header">
+        <div class="screen-header__title">
+            <h1>친구</h1>
+        <div class="screen-header__icons">
+            <ion-icon name="search-outline"></ion-icon>
+            <ion-icon name="person-add-outline"></ion-icon>
+            <ion-icon name="musical-notes-outline"></ion-icon>
+            <ion-icon name="cog-outline"></ion-icon>
+        </div>
+        </div>
     </header>
     <div class="my-profile"> 
         <img src="https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/202010/22/2182ecd3-b8cc-4993-98a7-8c2568f9fbbc.jpg" alt="">
@@ -74,6 +78,21 @@
                     </div>
                 </div>
             </div>
+
+            <nav class="nav">
+                <ul class="nav__ul">
+                    <li class="nav__btn"><a class="nav__link" href="#"><ion-icon name="person-outline"></ion-icon></a>
+                    </li>
+                    <li class="nav__btn"><a class="nav__link" href="#"><ion-icon name="chatbubble-outline"></ion-icon></a>
+                    </li>
+                    <li class="nav__btn"><a class="nav__link" href="#"><ion-icon name="eye-outline"></ion-icon></a>
+                    </li>
+                    <li class="nav__btn"><a class="nav__link" href="#"><ion-icon name="basket-outline"></ion-icon></a>
+                    </li>
+                    <li class="nav__btn"><a class="nav__link" href="#"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></a>
+                    </li>
+                </ul>
+            </nav>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
